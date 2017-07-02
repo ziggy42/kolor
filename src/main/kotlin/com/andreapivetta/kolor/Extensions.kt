@@ -55,7 +55,7 @@ fun String.lightRedBackground() = Kolor.background(this, Color.LIGHT_RED)
 
 fun String.lightGreenBackground() = Kolor.background(this, Color.LIGHT_GREEN)
 
-fun String.lightYelllowBackground() = Kolor.background(this, Color.LIGHT_YELLOW)
+fun String.lightYellowBackground() = Kolor.background(this, Color.LIGHT_YELLOW)
 
 fun String.lightBlueBackground() = Kolor.background(this, Color.LIGHT_BLUE)
 
