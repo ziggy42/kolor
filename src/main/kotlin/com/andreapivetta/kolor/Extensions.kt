@@ -1,5 +1,10 @@
 package com.andreapivetta.kolor
 
+/**
+ * Extension functions to get colored strings
+ * @author Andrea Pivetta
+ */
+
 fun String.black() = Kolor.foreground(this, Color.BLACK)
 
 fun String.red() = Kolor.foreground(this, Color.RED)

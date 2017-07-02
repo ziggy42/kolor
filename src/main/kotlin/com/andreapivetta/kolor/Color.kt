@@ -1,5 +1,9 @@
 package com.andreapivetta.kolor
 
+/**
+ * Colors
+ * @author Andrea Pivetta
+ */
 enum class Color {
     BLACK {
         override fun ANSI() = "\u001B[30m"
@@ -82,7 +86,15 @@ enum class Color {
         override fun ANSIBackground() = "\u001B[107m"
     };
 
+    /**
+     * Get the ANSI foreground code
+     * @return The ANSI foreground code
+     */
     abstract fun ANSI(): String
 
+    /**
+     * Get the ANSI background code
+     * @return The ANSI foreground code
+     */
     abstract fun ANSIBackground(): String
 }
