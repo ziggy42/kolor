@@ -1,4 +1,5 @@
 # kolor
+[![Download](https://api.bintray.com/packages/ziggy42/kolor/kolor/images/download.svg) ](https://bintray.com/ziggy42/kolor/kolor/_latestVersion)   
 A library to print colored strings, with Kotlin.
 
 ![Screenshot](screenshots/screenshot.png)
