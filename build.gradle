@@ -14,8 +14,6 @@ plugins {
     id "com.jfrog.bintray" version "1.7.3"
 }
 
-apply plugin: 'org.junit.platform.gradle.plugin'
-
 def GROUP_ID = 'com.andreapivetta.kolor'
 def ARTIFACT_ID = 'kolor'
 def VERSION = '0.0.1'
@@ -23,6 +21,7 @@ def VERSION = '0.0.1'
 group GROUP_ID
 version VERSION
 
+apply plugin: 'org.junit.platform.gradle.plugin'
 apply plugin: 'maven-publish'
 apply plugin: 'kotlin'
 apply plugin: 'java'
