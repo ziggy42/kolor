@@ -68,8 +68,8 @@ publishing {
 }
 
 bintray {
-    user = BINTRAY_USER
-    key = BINTRAY_KEY
+    user = hasProperty('BINTRAY_USER') ? BINTRAY_USER : ''
+    key = hasProperty('BINTRAY_KEY') ? BINTRAY_KEY : ''
     publications = ['MyPublication']
     pkg {
         repo = ARTIFACT_ID
