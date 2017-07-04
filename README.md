@@ -35,7 +35,7 @@ repositories {
 Add dependency:
 ```groovy
 dependencies {
-    compile "com.andreapivetta.kolor:kolor:0.0.1"
+    compile "com.andreapivetta.kolor:kolor:0.0.2"
     ...
 }
 ```
