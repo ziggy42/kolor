@@ -5,7 +5,8 @@ package com.andreapivetta.kolor
  * @author Andrea Pivetta
  */
 object Kolor {
-    private const val RESET = "\u001B[0m"
+    internal const val ESCAPE = '\u001B'
+    internal const val RESET = "$ESCAPE[0m"
 
     /**
      * Create a string that will be printed with the specified color as foreground
@@ -13,7 +14,7 @@ object Kolor {
      * @param color The color to use
      * @return The colored string
      */
-    fun foreground(string: String, color: Color) = Kolor.color(string, color.ANSI())
+    fun foreground(string: String, color: Color) = Kolor.color(string, color.foreground)
 
     /**
      * Create a string that will be printed with the specified color as background
@@ -21,7 +22,7 @@ object Kolor {
      * @param color The color to use
      * @return The colored string
      */
-    fun background(string: String, color: Color) = Kolor.color(string, color.ANSIBackground())
+    fun background(string: String, color: Color) = Kolor.color(string, color.background)
 
     private fun color(string: String, ansiString: String) = "$ansiString$string$RESET"
 }
