@@ -22,12 +22,10 @@ println(Kolor.background("I'm blue da ba dee da ba daa", Color.BLUE))
 ```
 
 ## Usage
-Add repository:
+Add jcenter:
 ```groovy
 repositories {
-    maven {
-        url  "http://dl.bintray.com/ziggy42/kolor"
-    }
+    jcenter()
     ...
 }
 ```
