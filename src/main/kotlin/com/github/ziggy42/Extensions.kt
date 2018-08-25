@@ -1,4 +1,4 @@
-package com.andreapivetta.kolor
+package com.github.ziggy42
 
 /**
  * Extension functions to get colored strings

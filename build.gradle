@@ -14,9 +14,9 @@ plugins {
     id "com.jfrog.bintray" version "1.7.3"
 }
 
-def GROUP_ID = 'com.andreapivetta.kolor'
+def GROUP_ID = 'com.github.ziggy42'
 def ARTIFACT_ID = 'kolor'
-def VERSION = '0.0.2'
+def VERSION = '0.1.0'
 
 group GROUP_ID
 version VERSION

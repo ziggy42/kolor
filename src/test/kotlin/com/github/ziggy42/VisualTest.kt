@@ -1,4 +1,4 @@
-package com.andreapivetta.kolor
+package com.github.ziggy42
 
 import org.jetbrains.spek.api.Spek
 import org.jetbrains.spek.api.dsl.it

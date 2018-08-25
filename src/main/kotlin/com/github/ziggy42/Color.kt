@@ -1,6 +1,6 @@
-package com.andreapivetta.kolor
+package com.github.ziggy42
 
-import com.andreapivetta.kolor.Kolor.ESCAPE
+import com.github.ziggy42.Kolor.ESCAPE
 
 /**
  * The amount of codes required in order to jump from a foreground code to a background code. Equal to 10. For example,
