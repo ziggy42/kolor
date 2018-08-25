@@ -1,5 +1,5 @@
 buildscript {
-    ext.kotlin_version = '1.1.60'
+    ext.kotlin_version = '1.2.61'
 
     repositories {
         mavenCentral()
@@ -42,7 +42,7 @@ repositories {
 }
 
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
     testCompile 'com.winterbe:expekt:0.5.0'
     testCompile 'org.jetbrains.spek:spek-api:1.1.5'
