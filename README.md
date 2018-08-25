@@ -8,7 +8,7 @@ A library to print colored strings, with Kotlin.
 ## Usage
 ```groovy
 dependencies {
-    compile "com.andreapivetta.kolor:kolor:0.1.0"
+    compile "com.github.ziggy42:kolor:0.1.0"
 }
 ```
 
