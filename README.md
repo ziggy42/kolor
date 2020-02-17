@@ -26,14 +26,12 @@ Add jcenter:
 ```groovy
 repositories {
     jcenter()
-    ...
 }
 ```
 
 Add dependency:
 ```groovy
 dependencies {
-    compile "com.andreapivetta.kolor:kolor:0.0.2"
-    ...
+    implementation "com.andreapivetta.kolor:kolor:1.0.0"
 }
 ```
