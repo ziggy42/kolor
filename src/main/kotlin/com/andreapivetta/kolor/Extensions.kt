@@ -25,7 +25,7 @@ fun String.lightRed() = Kolor.foreground(this, Color.LIGHT_RED)
 
 fun String.lightGreen() = Kolor.foreground(this, Color.LIGHT_GREEN)
 
-fun String.lightYelllow() = Kolor.foreground(this, Color.LIGHT_YELLOW)
+fun String.lightYellow() = Kolor.foreground(this, Color.LIGHT_YELLOW)
 
 fun String.lightBlue() = Kolor.foreground(this, Color.LIGHT_BLUE)
 
