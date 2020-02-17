@@ -1,5 +1,5 @@
 # kolor
-[![CircleCI](https://circleci.com/gh/ziggy42/kolor.svg?style=shield)](https://circleci.com/gh/ziggy42/kolor)
+![Java CI](https://github.com/ziggy42/kolor/workflows/Java%20CI/badge.svg)
 [![Download](https://api.bintray.com/packages/ziggy42/kolor/kolor/images/download.svg) ](https://bintray.com/ziggy42/kolor/kolor/_latestVersion)   
 A library to print colored strings, with Kotlin.
 (Tested on Linux only)
