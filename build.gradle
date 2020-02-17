@@ -1,13 +1,13 @@
 plugins {
     id "java"
     id "maven-publish"
-    id "com.jfrog.bintray" version "1.7.3"
+    id "com.jfrog.bintray" version "1.8.4"
     id "org.jetbrains.kotlin.jvm" version "1.3.61"
 }
 
 def GROUP_ID = 'com.andreapivetta.kolor'
 def ARTIFACT_ID = 'kolor'
-def VERSION = '0.0.2'
+def VERSION = '1.0.0'
 
 group GROUP_ID
 version VERSION
@@ -24,7 +24,7 @@ dependencies {
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {
-    classifier = 'sources'
+    archiveClassifier.set("sources")
     from sourceSets.main.allSource
 }
 
