@@ -11,6 +11,8 @@ Foreground:
 println("We all live in a yellow submarine".yellow())
 // Or
 println(Kolor.foreground("We all live in a yellow submarine", Color.YELLOW))
+// Or
+println("We all live in a yellow submarine".color(Color.YELLOW))
 ```
 
 Background:
