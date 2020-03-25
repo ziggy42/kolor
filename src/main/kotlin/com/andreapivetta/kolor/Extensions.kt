@@ -1,66 +1,71 @@
 package com.andreapivetta.kolor
 
+import com.andreapivetta.kolor.Color.*
+
 /**
  * Extension functions to get colored strings
  * @author Andrea Pivetta
  */
 
-fun String.black() = Kolor.foreground(this, Color.BLACK)
+fun String.color(color: Color) = Kolor.foreground(this, color)
+fun String.backgroundColor(color: Color) = Kolor.background(this, color)
 
-fun String.red() = Kolor.foreground(this, Color.RED)
+fun String.black() = this.color(BLACK)
 
-fun String.green() = Kolor.foreground(this, Color.GREEN)
+fun String.red() = this.color(RED)
 
-fun String.yellow() = Kolor.foreground(this, Color.YELLOW)
+fun String.green() = this.color(GREEN)
 
-fun String.blue() = Kolor.foreground(this, Color.BLUE)
+fun String.yellow() = this.color(YELLOW)
 
-fun String.magenta() = Kolor.foreground(this, Color.MAGENTA)
+fun String.blue() = this.color(BLUE)
 
-fun String.cyan() = Kolor.foreground(this, Color.CYAN)
+fun String.magenta() = this.color(MAGENTA)
 
-fun String.lightGray() = Kolor.foreground(this, Color.LIGHT_GRAY)
+fun String.cyan() = this.color(CYAN)
 
-fun String.lightRed() = Kolor.foreground(this, Color.LIGHT_RED)
+fun String.lightGray() = this.color(LIGHT_GRAY)
 
-fun String.lightGreen() = Kolor.foreground(this, Color.LIGHT_GREEN)
+fun String.lightRed() = this.color(LIGHT_RED)
 
-fun String.lightYellow() = Kolor.foreground(this, Color.LIGHT_YELLOW)
+fun String.lightGreen() = this.color(LIGHT_GREEN)
 
-fun String.lightBlue() = Kolor.foreground(this, Color.LIGHT_BLUE)
+fun String.lightYellow() = this.color(LIGHT_YELLOW)
 
-fun String.lightMagenta() = Kolor.foreground(this, Color.LIGHT_MAGENTA)
+fun String.lightBlue() = this.color(LIGHT_BLUE)
 
-fun String.lightCyan() = Kolor.foreground(this, Color.LIGHT_CYAN)
+fun String.lightMagenta() = this.color(LIGHT_MAGENTA)
 
-fun String.lightWhite() = Kolor.foreground(this, Color.WHITE)
+fun String.lightCyan() = this.color(LIGHT_CYAN)
 
-fun String.blackBackground() = Kolor.background(this, Color.BLACK)
+fun String.lightWhite() = this.color(WHITE)
 
-fun String.redBackground() = Kolor.background(this, Color.RED)
+fun String.blackBackground() = this.backgroundColor(BLACK)
 
-fun String.greenBackground() = Kolor.background(this, Color.GREEN)
+fun String.redBackground() = this.backgroundColor(RED)
 
-fun String.yellowBackground() = Kolor.background(this, Color.YELLOW)
+fun String.greenBackground() = this.backgroundColor(GREEN)
 
-fun String.blueBackground() = Kolor.background(this, Color.BLUE)
+fun String.yellowBackground() = this.backgroundColor(YELLOW)
 
-fun String.magentaBackground() = Kolor.background(this, Color.MAGENTA)
+fun String.blueBackground() = this.backgroundColor(BLUE)
 
-fun String.cyanBackground() = Kolor.background(this, Color.CYAN)
+fun String.magentaBackground() = this.backgroundColor(MAGENTA)
 
-fun String.lightGrayBackground() = Kolor.background(this, Color.LIGHT_GRAY)
+fun String.cyanBackground() = this.backgroundColor(CYAN)
 
-fun String.lightRedBackground() = Kolor.background(this, Color.LIGHT_RED)
+fun String.lightGrayBackground() = this.backgroundColor(LIGHT_GRAY)
 
-fun String.lightGreenBackground() = Kolor.background(this, Color.LIGHT_GREEN)
+fun String.lightRedBackground() = this.backgroundColor(LIGHT_RED)
 
-fun String.lightYellowBackground() = Kolor.background(this, Color.LIGHT_YELLOW)
+fun String.lightGreenBackground() = this.backgroundColor(LIGHT_GREEN)
 
-fun String.lightBlueBackground() = Kolor.background(this, Color.LIGHT_BLUE)
+fun String.lightYellowBackground() = this.backgroundColor(LIGHT_YELLOW)
 
-fun String.lightMagentaBackground() = Kolor.background(this, Color.LIGHT_MAGENTA)
+fun String.lightBlueBackground() = this.backgroundColor(LIGHT_BLUE)
 
-fun String.lightCyanBackground() = Kolor.background(this, Color.LIGHT_CYAN)
+fun String.lightMagentaBackground() = this.backgroundColor(LIGHT_MAGENTA)
 
-fun String.lightWhiteBackground() = Kolor.background(this, Color.WHITE)
+fun String.lightCyanBackground() = this.backgroundColor(LIGHT_CYAN)
+
+fun String.lightWhiteBackground() = this.backgroundColor(WHITE)
