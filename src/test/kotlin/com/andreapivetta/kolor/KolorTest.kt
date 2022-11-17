@@ -13,4 +13,9 @@ class KolorTest {
             assertEquals("${color.background}foo$RESET", Kolor.background("foo", color))
         }
     }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun `should throw error if hex is improper`() {
+        println(Kolor.foreground("Hello", 0xf33))
+    }
 }

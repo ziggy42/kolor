@@ -15,4 +15,10 @@ class VisualTest {
             println(Kolor.background("${c.name} in background", c))
         }
     }
+
+    @Test
+    fun `should print out a custom foreground color`() {
+        println(Kolor.foreground("Orange in foreground", 0xFF8000))
+        println(Kolor.background("Orange in background", 0xFF8000))
+    }
 }
